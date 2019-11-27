@@ -1,0 +1,8 @@
+Life game is an apllication of CA. The center cell's state depends on the eight cells around.
+Here are the game rules:
+1.Any living cell will die if the living neighbour is less than 2. It suggests you will die if you are too lonely, having no friends.
+2.Any living cell will alive if have 2 or 3 living neghbours around. It suggests you live in an average population world.
+3.Any living cell will die if have 3 or more living neighbours. It suggests that you will die if you have a lots of competitors, having no food, waiting to die.
+4.Any died cell will alive if have just 3 living neighbours. It suggests the reproduction of humman.
+We can easily get it work through C/C++/Python with For-circles and if conditional statement, and I read the code in Excel using VBA, and it is also easy to understand.
+We can have different black and white patterns, and found how the cells will be. And I think about the real situation, if there is a river through the map, the survival rate will rise up. The cell's distribution will be totally different.
